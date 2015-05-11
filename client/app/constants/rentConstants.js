@@ -1,3 +1,4 @@
+//events involved in displaying listing and booking listings!
 var RentConstants = {
 
   ENTRY_CLICKED: "ENTRY_CLICKED",

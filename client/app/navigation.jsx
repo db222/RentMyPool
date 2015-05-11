@@ -3,6 +3,7 @@ var DefaultRoute = ReactRouter.DefaultRoute;
 var RouteHandler = ReactRouter.RouteHandler;
 var Link = ReactRouter.Link;
 
+// Defines the button used to toggle diplay of user info
 var UserButton = React.createClass({
 
   render: function () {
@@ -22,6 +23,7 @@ var UserButton = React.createClass({
 
 });
 
+//defines how to render a users listings
 var UserListing = React.createClass({
 
   render: function  () {
@@ -50,6 +52,7 @@ var UserListing = React.createClass({
 
 });
 
+//defines rendering of user information
 var UserDetails = React.createClass({
 
   render: function () {
