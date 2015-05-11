@@ -53,7 +53,6 @@ var UserListing = React.createClass({
 
 });
 
-<<<<<<< HEAD
 var UserBooking = React.createClass({
 
   render: function  () {
@@ -83,9 +82,6 @@ var UserBooking = React.createClass({
 
 });
 
-=======
-//defines rendering of user information
->>>>>>> backend commented!
 var UserDetails = React.createClass({
 
   render: function () {
