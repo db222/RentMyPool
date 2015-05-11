@@ -1,3 +1,4 @@
+//events involved in displaying listing and booking listings!
 var RentConstants = {
 
   ENTRY_CLICKED: "ENTRY_CLICKED",
@@ -6,4 +7,4 @@ var RentConstants = {
   FILTER_CHANGE_DATE: "FILTER_CHANGE_LOCATION",
   FILTER_CHANGE_LOCATION: "FILTER_CHANGE_DATE"
 
-}
+};
