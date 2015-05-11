@@ -47,7 +47,6 @@ exports.getListings = function(req, res) {
               }
               return !item.calendar.hasOwnProperty(date);
             })
-
             console.log('sending items back! ',resultItems.length);
             //send all items to the client
             res.status(200).send({results: resultItems});
