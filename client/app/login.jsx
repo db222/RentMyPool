@@ -22,11 +22,11 @@ var LoginContent = React.createClass({
   },
 
   handleSubmit: function (e) {
-    e.preventDefault();
+    var $form = $('#loginForm')[0];
 
     this.setState({
-      username: e.target.username.value,
-      password: e.target.password.value
+      username: $form.username.value,
+      password: $form.password.value
     },
       function () {
         AppActions.userLogin(this.state);
@@ -39,14 +39,14 @@ var LoginContent = React.createClass({
       <div className="login">
         <h1>Login</h1>
         <br />
-        <form onSubmit={this.handleSubmit}>
-          <input name="username" placeholder={this.state.username} onChange={this.handleChange} />
+        <form id="loginForm">
+          <input className="loginInput" name="username" placeholder={this.state.username} onChange={this.handleChange} />
           <br />
           <br />
-          <input type="password" name="password" placeholder={this.state.password} onChange={this.handleChange} />
+          <input className="loginInput" type="password" name="password" placeholder={this.state.password} onChange={this.handleChange} />
           <br /> 
           <br />
-          <input className="nav-link" type="submit" value="Login"/>
+          <a onClick={this.handleSubmit} className="btn-link">Login</a>
           <Link className="btn-link" to="Sign Up">Sign Up</Link>
         </form>
       </div>

@@ -35,16 +35,44 @@ body{
     padding-left : 40px;
 }
 
+
+.login {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.listView {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.listingInput {
+    width: 80%;
+    height: 35px;
+}
+
+.loginInput {
+    width: 80%;
+    height: 35px;
+}
+
+
 .btn-link{
     display: inline-block;
-    padding: 13px 20px;
+    padding: 10px 20px;
     cursor:pointer;
     background-color:#eee;
     color:#fff;
     text-decoration: none;
     background-color:#41c7c2;
     border-radius: 10px;
-    margin : 20px;
+    margin : 6px;
+    width: 65%;
+    height: 10px;
     transition:0.3s;
 }
 
